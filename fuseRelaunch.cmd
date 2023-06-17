@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "/home/student1/pkundi/coe758/Project2/Pong/VGA_DRIVER_isim_beh.exe" -prj "/home/student1/pkundi/coe758/Project2/Pong/VGA_DRIVER_beh.prj" "work.VGA_DRIVER" 

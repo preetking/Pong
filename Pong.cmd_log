@@ -1,0 +1,173 @@
+xst -intstyle ise -ifn "/home/student1/d228pate/coe758/Project2/Pong/Pong.xst" -ofn "/home/student1/d228pate/coe758/Project2/Pong/Pong.syr" 
+xst -intstyle ise -ifn "/home/student1/d228pate/coe758/Project2/Pong/Pong.xst" -ofn "/home/student1/d228pate/coe758/Project2/Pong/Pong.syr" 
+xst -intstyle ise -ifn "/home/student1/d228pate/coe758/Project2/Pong/Pong.xst" -ofn "/home/student1/d228pate/coe758/Project2/Pong/Pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Pong.ucf -p xc3s500e-fg320-5 Pong.ngc Pong.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Pong.ucf -p xc3s500e-fg320-5 Pong.ngc Pong.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Pong_map.ncd Pong.ngd Pong.pcf 
+par -w -intstyle ise -ol high -t 1 Pong_map.ncd Pong.ncd Pong.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pong.twx Pong.ncd -o Pong.twr Pong.pcf -ucf Pong.ucf 
+xst -intstyle ise -ifn "/home/student1/d228pate/coe758/Project2/Pong/Pong.xst" -ofn "/home/student1/d228pate/coe758/Project2/Pong/Pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Pong.ucf -p xc3s500e-fg320-5 Pong.ngc Pong.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Pong_map.ncd Pong.ngd Pong.pcf 
+par -w -intstyle ise -ol high -t 1 Pong_map.ncd Pong.ncd Pong.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pong.twx Pong.ncd -o Pong.twr Pong.pcf -ucf Pong.ucf 
+bitgen -intstyle ise -f Pong.ut Pong.ncd 
+xst -intstyle ise -ifn "/home/student1/d228pate/coe758/Project2/Pong/Pong.xst" -ofn "/home/student1/d228pate/coe758/Project2/Pong/Pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Pong.ucf -p xc3s500e-fg320-5 Pong.ngc Pong.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Pong_map.ncd Pong.ngd Pong.pcf 
+par -w -intstyle ise -ol high -t 1 Pong_map.ncd Pong.ncd Pong.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pong.twx Pong.ncd -o Pong.twr Pong.pcf -ucf Pong.ucf 
+bitgen -intstyle ise -f Pong.ut Pong.ncd 
+xst -intstyle ise -ifn "/home/student1/d228pate/coe758/Project2/Pong/Pong.xst" -ofn "/home/student1/d228pate/coe758/Project2/Pong/Pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Pong.ucf -p xc3s500e-fg320-5 Pong.ngc Pong.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Pong_map.ncd Pong.ngd Pong.pcf 
+par -w -intstyle ise -ol high -t 1 Pong_map.ncd Pong.ncd Pong.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pong.twx Pong.ncd -o Pong.twr Pong.pcf -ucf Pong.ucf 
+bitgen -intstyle ise -f Pong.ut Pong.ncd 
+xst -intstyle ise -ifn "/home/student1/d228pate/coe758/Project2/Pong/Pong.xst" -ofn "/home/student1/d228pate/coe758/Project2/Pong/Pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Pong.ucf -p xc3s500e-fg320-5 Pong.ngc Pong.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Pong_map.ncd Pong.ngd Pong.pcf 
+par -w -intstyle ise -ol high -t 1 Pong_map.ncd Pong.ncd Pong.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pong.twx Pong.ncd -o Pong.twr Pong.pcf -ucf Pong.ucf 
+bitgen -intstyle ise -f Pong.ut Pong.ncd 
+xst -intstyle ise -ifn "/home/student1/d228pate/coe758/Project2/Pong/Pong.xst" -ofn "/home/student1/d228pate/coe758/Project2/Pong/Pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Pong.ucf -p xc3s500e-fg320-5 Pong.ngc Pong.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Pong_map.ncd Pong.ngd Pong.pcf 
+par -w -intstyle ise -ol high -t 1 Pong_map.ncd Pong.ncd Pong.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pong.twx Pong.ncd -o Pong.twr Pong.pcf -ucf Pong.ucf 
+bitgen -intstyle ise -f Pong.ut Pong.ncd 
+xst -intstyle ise -ifn "/home/student1/d228pate/coe758/Project2/Pong/Pong.xst" -ofn "/home/student1/d228pate/coe758/Project2/Pong/Pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Pong.ucf -p xc3s500e-fg320-5 Pong.ngc Pong.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Pong_map.ncd Pong.ngd Pong.pcf 
+par -w -intstyle ise -ol high -t 1 Pong_map.ncd Pong.ncd Pong.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pong.twx Pong.ncd -o Pong.twr Pong.pcf -ucf Pong.ucf 
+bitgen -intstyle ise -f Pong.ut Pong.ncd 
+xst -intstyle ise -ifn "/home/student1/d228pate/coe758/Project2/Pong/Pong.xst" -ofn "/home/student1/d228pate/coe758/Project2/Pong/Pong.syr" 
+xst -intstyle ise -ifn "/home/student1/d228pate/coe758/Project2/Pong/Pong.xst" -ofn "/home/student1/d228pate/coe758/Project2/Pong/Pong.syr" 
+xst -intstyle ise -ifn "/home/student1/d228pate/coe758/Project2/Pong/Pong.xst" -ofn "/home/student1/d228pate/coe758/Project2/Pong/Pong.syr" 
+xst -intstyle ise -ifn "/home/student1/d228pate/coe758/Project2/Pong/Pong.xst" -ofn "/home/student1/d228pate/coe758/Project2/Pong/Pong.syr" 
+xst -intstyle ise -ifn "/home/student1/d228pate/coe758/Project2/Pong/Pong.xst" -ofn "/home/student1/d228pate/coe758/Project2/Pong/Pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Pong.ucf -p xc3s500e-fg320-5 Pong.ngc Pong.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Pong_map.ncd Pong.ngd Pong.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Pong.ucf -p xc3s500e-fg320-5 Pong.ngc Pong.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Pong_map.ncd Pong.ngd Pong.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Pong.ucf -p xc3s500e-fg320-5 Pong.ngc Pong.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Pong_map.ncd Pong.ngd Pong.pcf 
+par -w -intstyle ise -ol high -t 1 Pong_map.ncd Pong.ncd Pong.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pong.twx Pong.ncd -o Pong.twr Pong.pcf -ucf Pong.ucf 
+bitgen -intstyle ise -f Pong.ut Pong.ncd 
+xst -intstyle ise -ifn "/home/student1/d228pate/coe758/Project2/Pong/Pong.xst" -ofn "/home/student1/d228pate/coe758/Project2/Pong/Pong.syr" 
+xst -intstyle ise -ifn "/home/student1/d228pate/coe758/Project2/Pong/Pong.xst" -ofn "/home/student1/d228pate/coe758/Project2/Pong/Pong.syr" 
+xst -intstyle ise -ifn "/home/student1/d228pate/coe758/Project2/Pong/Pong.xst" -ofn "/home/student1/d228pate/coe758/Project2/Pong/Pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Pong.ucf -p xc3s500e-fg320-5 Pong.ngc Pong.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Pong_map.ncd Pong.ngd Pong.pcf 
+par -w -intstyle ise -ol high -t 1 Pong_map.ncd Pong.ncd Pong.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pong.twx Pong.ncd -o Pong.twr Pong.pcf -ucf Pong.ucf 
+bitgen -intstyle ise -f Pong.ut Pong.ncd 
+xst -intstyle ise -ifn "/home/student1/d228pate/coe758/Project2/Pong/Pong.xst" -ofn "/home/student1/d228pate/coe758/Project2/Pong/Pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Pong.ucf -p xc3s500e-fg320-5 Pong.ngc Pong.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Pong_map.ncd Pong.ngd Pong.pcf 
+par -w -intstyle ise -ol high -t 1 Pong_map.ncd Pong.ncd Pong.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pong.twx Pong.ncd -o Pong.twr Pong.pcf -ucf Pong.ucf 
+bitgen -intstyle ise -f Pong.ut Pong.ncd 
+xst -intstyle ise -ifn "/home/student1/d228pate/coe758/Project2/Pong/Pong.xst" -ofn "/home/student1/d228pate/coe758/Project2/Pong/Pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Pong.ucf -p xc3s500e-fg320-5 Pong.ngc Pong.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Pong_map.ncd Pong.ngd Pong.pcf 
+par -w -intstyle ise -ol high -t 1 Pong_map.ncd Pong.ncd Pong.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pong.twx Pong.ncd -o Pong.twr Pong.pcf -ucf Pong.ucf 
+bitgen -intstyle ise -f Pong.ut Pong.ncd 
+xst -intstyle ise -ifn "/home/student1/d228pate/coe758/Project2/Pong/Pong.xst" -ofn "/home/student1/d228pate/coe758/Project2/Pong/Pong.syr" 
+xst -intstyle ise -ifn "/home/student1/d228pate/coe758/Project2/Pong/Pong.xst" -ofn "/home/student1/d228pate/coe758/Project2/Pong/Pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Pong.ucf -p xc3s500e-fg320-5 Pong.ngc Pong.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Pong_map.ncd Pong.ngd Pong.pcf 
+par -w -intstyle ise -ol high -t 1 Pong_map.ncd Pong.ncd Pong.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pong.twx Pong.ncd -o Pong.twr Pong.pcf -ucf Pong.ucf 
+bitgen -intstyle ise -f Pong.ut Pong.ncd 
+xst -intstyle ise -ifn "/home/student1/d228pate/coe758/Project2/Pong/Pong.xst" -ofn "/home/student1/d228pate/coe758/Project2/Pong/Pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Pong.ucf -p xc3s500e-fg320-5 Pong.ngc Pong.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Pong_map.ncd Pong.ngd Pong.pcf 
+par -w -intstyle ise -ol high -t 1 Pong_map.ncd Pong.ncd Pong.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pong.twx Pong.ncd -o Pong.twr Pong.pcf -ucf Pong.ucf 
+bitgen -intstyle ise -f Pong.ut Pong.ncd 
+xst -intstyle ise -ifn "/home/student1/d228pate/coe758/Project2/Pong/Pong.xst" -ofn "/home/student1/d228pate/coe758/Project2/Pong/Pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Pong.ucf -p xc3s500e-fg320-5 Pong.ngc Pong.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Pong_map.ncd Pong.ngd Pong.pcf 
+par -w -intstyle ise -ol high -t 1 Pong_map.ncd Pong.ncd Pong.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pong.twx Pong.ncd -o Pong.twr Pong.pcf -ucf Pong.ucf 
+bitgen -intstyle ise -f Pong.ut Pong.ncd 
+xst -intstyle ise -ifn "/home/student1/d228pate/coe758/Project2/Pong/Pong.xst" -ofn "/home/student1/d228pate/coe758/Project2/Pong/Pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Pong.ucf -p xc3s500e-fg320-5 Pong.ngc Pong.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Pong_map.ncd Pong.ngd Pong.pcf 
+par -w -intstyle ise -ol high -t 1 Pong_map.ncd Pong.ncd Pong.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pong.twx Pong.ncd -o Pong.twr Pong.pcf -ucf Pong.ucf 
+bitgen -intstyle ise -f Pong.ut Pong.ncd 
+xst -intstyle ise -ifn "/home/student1/d228pate/coe758/Project2/Pong/Pong.xst" -ofn "/home/student1/d228pate/coe758/Project2/Pong/Pong.syr" 
+xst -intstyle ise -ifn "/home/student1/d228pate/coe758/Project2/Pong/Pong.xst" -ofn "/home/student1/d228pate/coe758/Project2/Pong/Pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Pong.ucf -p xc3s500e-fg320-5 Pong.ngc Pong.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Pong_map.ncd Pong.ngd Pong.pcf 
+par -w -intstyle ise -ol high -t 1 Pong_map.ncd Pong.ncd Pong.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pong.twx Pong.ncd -o Pong.twr Pong.pcf -ucf Pong.ucf 
+bitgen -intstyle ise -f Pong.ut Pong.ncd 
+xst -intstyle ise -ifn "/home/student1/d228pate/coe758/Project2/Pong/Pong.xst" -ofn "/home/student1/d228pate/coe758/Project2/Pong/Pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Pong.ucf -p xc3s500e-fg320-5 Pong.ngc Pong.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Pong_map.ncd Pong.ngd Pong.pcf 
+par -w -intstyle ise -ol high -t 1 Pong_map.ncd Pong.ncd Pong.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pong.twx Pong.ncd -o Pong.twr Pong.pcf -ucf Pong.ucf 
+bitgen -intstyle ise -f Pong.ut Pong.ncd 
+xst -intstyle ise -ifn "/home/student1/d228pate/coe758/Project2/Pong/Pong.xst" -ofn "/home/student1/d228pate/coe758/Project2/Pong/Pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Pong.ucf -p xc3s500e-fg320-5 Pong.ngc Pong.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Pong_map.ncd Pong.ngd Pong.pcf 
+par -w -intstyle ise -ol high -t 1 Pong_map.ncd Pong.ncd Pong.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pong.twx Pong.ncd -o Pong.twr Pong.pcf -ucf Pong.ucf 
+bitgen -intstyle ise -f Pong.ut Pong.ncd 
+xst -intstyle ise -ifn "/home/student1/d228pate/coe758/Project2/Pong/Pong.xst" -ofn "/home/student1/d228pate/coe758/Project2/Pong/Pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Pong.ucf -p xc3s500e-fg320-5 Pong.ngc Pong.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Pong_map.ncd Pong.ngd Pong.pcf 
+par -w -intstyle ise -ol high -t 1 Pong_map.ncd Pong.ncd Pong.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pong.twx Pong.ncd -o Pong.twr Pong.pcf -ucf Pong.ucf 
+bitgen -intstyle ise -f Pong.ut Pong.ncd 
+xst -intstyle ise -ifn "/home/student1/d228pate/coe758/Project2/Pong/Pong.xst" -ofn "/home/student1/d228pate/coe758/Project2/Pong/Pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Pong.ucf -p xc3s500e-fg320-5 Pong.ngc Pong.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Pong_map.ncd Pong.ngd Pong.pcf 
+par -w -intstyle ise -ol high -t 1 Pong_map.ncd Pong.ncd Pong.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pong.twx Pong.ncd -o Pong.twr Pong.pcf -ucf Pong.ucf 
+bitgen -intstyle ise -f Pong.ut Pong.ncd 
+xst -intstyle ise -ifn "/home/student1/d228pate/coe758/Project2/Pong/Pong.xst" -ofn "/home/student1/d228pate/coe758/Project2/Pong/Pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Pong.ucf -p xc3s500e-fg320-5 Pong.ngc Pong.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Pong_map.ncd Pong.ngd Pong.pcf 
+par -w -intstyle ise -ol high -t 1 Pong_map.ncd Pong.ncd Pong.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pong.twx Pong.ncd -o Pong.twr Pong.pcf -ucf Pong.ucf 
+bitgen -intstyle ise -f Pong.ut Pong.ncd 
+xst -intstyle ise -ifn "/home/student1/d228pate/coe758/Project2/Pong/Pong.xst" -ofn "/home/student1/d228pate/coe758/Project2/Pong/Pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Pong.ucf -p xc3s500e-fg320-5 Pong.ngc Pong.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Pong_map.ncd Pong.ngd Pong.pcf 
+par -w -intstyle ise -ol high -t 1 Pong_map.ncd Pong.ncd Pong.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pong.twx Pong.ncd -o Pong.twr Pong.pcf -ucf Pong.ucf 
+bitgen -intstyle ise -f Pong.ut Pong.ncd 
+netgen -intstyle ise -ar Structure -tm Pong -w -dir netgen/synthesis -ofmt vhdl -sim Pong.ngc Pong_synthesis.vhd 
+xst -intstyle ise -ifn "/home/student1/pkundi/coe758/Project2/Pong/Pong.xst" -ofn "/home/student1/pkundi/coe758/Project2/Pong/Pong.syr" 
+xst -intstyle ise -ifn "/home/student1/pkundi/coe758/Project2/Pong/Pong.xst" -ofn "/home/student1/pkundi/coe758/Project2/Pong/Pong.syr" 
+netgen -intstyle ise -ar Structure -tm Pong -w -dir netgen/synthesis -ofmt vhdl -sim Pong.ngc Pong_synthesis.vhd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Pong.ucf -p xc3s500e-fg320-5 Pong.ngc Pong.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Pong_map.ncd Pong.ngd Pong.pcf 
+par -w -intstyle ise -ol high -t 1 Pong_map.ncd Pong.ncd Pong.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pong.twx Pong.ncd -o Pong.twr Pong.pcf -ucf Pong.ucf 
+bitgen -intstyle ise -f Pong.ut Pong.ncd 
+xst -intstyle ise -ifn "/home/student1/pkundi/coe758/Project2/Pong/Pong.xst" -ofn "/home/student1/pkundi/coe758/Project2/Pong/Pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Pong.ucf -p xc3s500e-fg320-5 Pong.ngc Pong.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Pong_map.ncd Pong.ngd Pong.pcf 
+par -w -intstyle ise -ol high -t 1 Pong_map.ncd Pong.ncd Pong.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pong.twx Pong.ncd -o Pong.twr Pong.pcf -ucf Pong.ucf 
+bitgen -intstyle ise -f Pong.ut Pong.ncd 
+netgen -intstyle ise -ar Structure -tm Pong -w -dir netgen/synthesis -ofmt vhdl -sim Pong.ngc Pong_synthesis.vhd 
+xst -intstyle ise -ifn "/home/student1/pkundi/coe758/Project2/Pong/Pong.xst" -ofn "/home/student1/pkundi/coe758/Project2/Pong/Pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Pong.ucf -p xc3s500e-fg320-5 Pong.ngc Pong.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Pong_map.ncd Pong.ngd Pong.pcf 
+par -w -intstyle ise -ol high -t 1 Pong_map.ncd Pong.ncd Pong.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pong.twx Pong.ncd -o Pong.twr Pong.pcf -ucf Pong.ucf 
+bitgen -intstyle ise -f Pong.ut Pong.ncd 
+xst -intstyle ise -ifn "/home/student1/pkundi/coe758/Project2/Pong/Pong.xst" -ofn "/home/student1/pkundi/coe758/Project2/Pong/Pong.syr" 
+netgen -intstyle ise -ar Structure -tm Pong -w -dir netgen/synthesis -ofmt vhdl -sim Pong.ngc Pong_synthesis.vhd 
+xst -intstyle ise -ifn "/home/student1/pkundi/coe758/Project2/Pong/Pong.xst" -ofn "/home/student1/pkundi/coe758/Project2/Pong/Pong.syr" 
+netgen -intstyle ise -ar Structure -tm Pong -w -dir netgen/synthesis -ofmt vhdl -sim Pong.ngc Pong_synthesis.vhd 
+xst -intstyle ise -ifn "/home/student1/pkundi/coe758/Project2/Pong/Pong.xst" -ofn "/home/student1/pkundi/coe758/Project2/Pong/Pong.syr" 

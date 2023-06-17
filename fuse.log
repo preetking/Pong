@@ -1,0 +1,29 @@
+Running: /CMC/tools/xilinx/13.4/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -o /home/student1/pkundi/coe758/Project2/Pong/VGA_DRIVER_isim_beh.exe -prj /home/student1/pkundi/coe758/Project2/Pong/VGA_DRIVER_beh.prj work.VGA_DRIVER 
+ISim O.87xd (signature 0x8ddf5b5d)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/student1/pkundi/coe758/Project2/Pong/hv_sync.vhd" into library work
+Parsing VHDL file "/home/student1/pkundi/coe758/Project2/Pong/hv_position.vhd" into library work
+Parsing VHDL file "/home/student1/pkundi/coe758/Project2/Pong/display.vhd" into library work
+Parsing VHDL file "/home/student1/pkundi/coe758/Project2/Pong/VGA_DRIVER.vhd" into library work
+Starting static elaboration
+WARNING:HDLCompiler:89 - "/home/student1/pkundi/coe758/Project2/Pong/VGA_DRIVER.vhd" Line 89: <clock25> remains a black-box since it has no binding entity.
+Completed static elaboration
+Fuse Memory Usage: 121716 KB
+Fuse CPU Usage: 930 ms
+WARNING:Simulator:648 - "/home/student1/pkundi/coe758/Project2/Pong/VGA_DRIVER.vhd" Line 89. Instance clock25 is unbound
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling architecture behavorial of entity hv_position [hv_position_default]
+Compiling architecture behavorial of entity hv_sync [hv_sync_default]
+Compiling architecture behavorial of entity display [display_default]
+Compiling architecture behavorial of entity vga_driver
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 10 VHDL Units
+Built simulation executable /home/student1/pkundi/coe758/Project2/Pong/VGA_DRIVER_isim_beh.exe
+Fuse Memory Usage: 1217832 KB
+Fuse CPU Usage: 1040 ms
+GCC CPU Usage: 300 ms

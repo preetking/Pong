@@ -1,0 +1,5 @@
+vhdl work "/home/student1/d228pate/coe758/Project2/Pong/hv_sync.vhd"
+vhdl work "/home/student1/d228pate/coe758/Project2/Pong/hv_position.vhd"
+vhdl work "/home/student1/d228pate/coe758/Project2/Pong/clock_25mhz.vhd"
+vhdl work "/home/student1/d228pate/coe758/Project2/Pong/VGA_DRIVER.vhd"
+vhdl work "/home/student1/d228pate/coe758/Project2/Pong/display.vhd"

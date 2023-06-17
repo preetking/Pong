@@ -1,0 +1,4 @@
+vhdl work "hv_sync.vhd"
+vhdl work "hv_position.vhd"
+vhdl work "display.vhd"
+vhdl work "VGA_DRIVER.vhd"

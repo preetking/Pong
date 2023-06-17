@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/student1/d228pate/coe758/Project2/Pong/VGA_DRIVER.xst" -ofn "/home/student1/d228pate/coe758/Project2/Pong/VGA_DRIVER.syr" 
