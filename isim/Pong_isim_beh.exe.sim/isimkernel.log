@@ -1,0 +1,28 @@
+Command line:
+   Pong_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  56239
+
+Fri Dec  2 22:13:59 2022
+
+
+ Elaboration Time: 0.03 sec
+
+ Current Memory Usage: 213.717 Meg
+
+ Total Signals          : 67
+ Total Nets             : 53
+ Total Signal Drivers   : 21
+ Total Blocks           : 8
+ Total Primitive Blocks : 6
+ Total Processes        : 9
+ Total Traceable Variables  : 21
+ Total Scalar Nets and Variables : 544
+
+ Total Simulation Time: 0.04 sec
+
+ Current Memory Usage: 289.214 Meg
+
+Fri Dec  2 22:14:17 2022
+
